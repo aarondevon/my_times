@@ -34,5 +34,27 @@ nav a {
 /***************************/
 
 /*Main Content**************/
+.content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
 
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+	width: 240px;
+	margin-right: 40px;
+}
 /***************************/
