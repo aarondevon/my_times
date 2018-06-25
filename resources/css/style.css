@@ -3,11 +3,15 @@
 } */
 /*Header*********************/
 header {
+	position: fixed;
+	top: 0;
 	display: flex;
 	align-items: center;
 	font-family: Verdana;
   font-size: 14px;
-  font-weight: bold;
+	font-weight: bold;
+	background: #fff;
+	width: 100%;
 }
 
 .logo {
@@ -127,7 +131,7 @@ nav a {
 /*Footer********************/
 footer {
 	display: flex;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	height: 325px;
