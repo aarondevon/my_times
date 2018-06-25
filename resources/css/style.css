@@ -1,6 +1,6 @@
-div {
+/* div {
 	border: 1px solid black;
-}
+} */
 /*Header*********************/
 header {
 	display: flex;
@@ -36,17 +36,18 @@ nav a {
 /*Main Content**************/
 .content {
 	display: flex;
-	justify-content: space-between;
 	margin-top: 10px;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
+	margin-left: 32px;
 }
 
 .column.large {
-  width: 630px;
+	width: 630px;
+	margin-left: 0;
 }
 
 .column.medium {
@@ -55,6 +56,105 @@ nav a {
 
 .column.small {
 	width: 240px;
-	margin-right: 40px;
 }
+
+.image-content {
+	height: 300px;
+	font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.lead-story .image-content {
+	background-image: url(/resources/images/img-story-main.png);
+	font-size: 40px;
+}
+
+.fall-cancelled {
+	background-image: url(/resources/images/fall-season.png);
+	text-align: center;
+	width: 300px;
+}
+
+.pop-culture {
+	background-image: url(/resources/images/camera.png);
+	text-align: center;
+	width: 300px;
+}
+
+.narrative {
+	font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+}
+
+/***************************/
+
+/*Medium Column*************/
+.cat-ceo {
+	background-image: url(/resources/images/cat-ceo.png);
+	text-align: center;
+	width: 300px;
+}
+
+
+/*Medium Column*************/
+.news-bites {
+	display: flex;
+	flex-direction: column;
+}
+.news-bites h3 {
+	font-size: 16px;
+  font-weight: bold;
+}
+
+.bite {
+	border-bottom: 1px solid #000;
+	background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+	color: DimGray;
+	padding: 10px 0px 10px 20px;
+}
+/***************************/
+
+/*Footer********************/
+footer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 325px;
+	background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+	font-size: 12px;
+	width: 100%;
+}
+/* .info	{
+	display: block;
+} */
+
+.title {
+	font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+	color: white;
+	border-right: 2px solid #fff;
+	padding-right: 25px;
+}
+
+footer nav {
+	display: inline-block;
+}
+
+/* .copyright {
+	display: block;
+} */
 /***************************/
